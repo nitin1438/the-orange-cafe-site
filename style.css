@@ -128,11 +128,10 @@ body {
   font-weight: 600;
 }
 
-.btn-primary {
-  background: #FFAB00;
+.btn-secondary {
+  border: 1px solid white;
   color:white;
 }
-
 .btn-secondary {
   border: 1px solid white;
   color:white;
