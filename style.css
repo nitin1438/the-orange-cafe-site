@@ -401,4 +401,6 @@ footer {
   .menu-arrow {
     font-size: 34px;
   }
-}
+git add .
+git commit -m "Improve menu mobile design"
+git push
