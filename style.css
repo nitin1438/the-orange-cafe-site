@@ -518,15 +518,6 @@ git push
   line-height: 1.7;
 }
 
-.arrow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-size: 46px;
-  color: #d76b08;
-}
-
 .menu-footer {
   background: white;
   text-align: center;
