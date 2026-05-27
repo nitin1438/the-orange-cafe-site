@@ -229,3 +229,176 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+/* MENU PAGE */
+
+.menu-page {
+  background: #fbf5ed;
+}
+
+.menu-hero {
+  position: relative;
+  min-height: 430px;
+
+  display: flex;
+  align-items: center;
+
+  background:
+    url("https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb")
+    center/cover;
+}
+
+.menu-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(25, 10, 3, 0.62);
+}
+
+.menu-hero-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.menu-small {
+  letter-spacing: 4px;
+  color: #f39534;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.menu-hero h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  line-height: 1.08;
+}
+
+.menu-hero p {
+  font-size: 24px;
+  margin-top: 18px;
+  line-height: 1.6;
+}
+
+.menu-highlights {
+  padding: 70px 0;
+}
+
+.menu-highlights h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 58px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.menu-highlights h3 span {
+  color: #e9780b;
+}
+
+.menu-card {
+  background: white;
+
+  border-radius: 28px;
+
+  padding: 26px;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  margin-bottom: 26px;
+
+  box-shadow:
+    0 8px 24px rgba(0,0,0,.06);
+}
+
+.menu-icon {
+  width: 78px;
+  height: 78px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 36px;
+
+  background: #fff2de;
+}
+
+.menu-info {
+  flex: 1;
+}
+
+.menu-info h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.menu-info p {
+  font-size: 22px;
+  line-height: 1.7;
+  color: #3f3429;
+}
+
+.menu-arrow {
+  font-size: 42px;
+  color: #d8760f;
+}
+
+.menu-footer {
+  background: #fff;
+  text-align: center;
+  padding: 38px;
+}
+
+.menu-footer p:first-child {
+  font-size: 20px;
+  color: #c96a10;
+  margin-bottom: 12px;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .menu-hero {
+    min-height: 380px;
+    padding: 40px 0;
+  }
+
+  .menu-hero h2 {
+    font-size: 50px;
+  }
+
+  .menu-hero p {
+    font-size: 22px;
+  }
+
+  .menu-highlights h3 {
+    font-size: 48px;
+  }
+
+  .menu-card {
+    padding: 24px;
+    gap: 16px;
+  }
+
+  .menu-icon {
+    width: 66px;
+    height: 66px;
+    font-size: 30px;
+  }
+
+  .menu-info h4 {
+    font-size: 32px;
+  }
+
+  .menu-info p {
+    font-size: 20px;
+  }
+
+  .menu-arrow {
+    font-size: 34px;
+  }
+}
