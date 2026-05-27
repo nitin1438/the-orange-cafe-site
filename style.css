@@ -404,3 +404,187 @@ footer {
 git add .
 git commit -m "Improve menu mobile design"
 git push
+.menu-page {
+  background: #faf4ec;
+}
+
+.menu-hero {
+  position: relative;
+  min-height: 480px;
+  display: flex;
+  align-items: center;
+  background:
+    url("https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1600")
+    center/cover;
+}
+
+.menu-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(18,8,3,.65);
+}
+
+.hero-wrap {
+  position: relative;
+  z-index: 2;
+
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 40px;
+  align-items: center;
+
+  color: white;
+}
+
+.menu-small {
+  color: #ff9b34;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+.menu-hero h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 72px;
+  line-height: 1.05;
+  margin-top: 10px;
+}
+
+.menu-hero h2 span {
+  color: #ff8a1f;
+}
+
+.hero-sub {
+  font-size: 26px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.hero-cup {
+  width: 100%;
+  border-radius: 28px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.35);
+}
+
+.menu-section {
+  padding: 80px 0;
+}
+
+.menu-section h3 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  margin-bottom: 50px;
+}
+
+.menu-section h3 span {
+  color: #e67a11;
+}
+
+.menu-card {
+  display: grid;
+  grid-template-columns: 280px 1fr 50px;
+
+  gap: 26px;
+
+  background: white;
+  border-radius: 26px;
+
+  overflow: hidden;
+
+  margin-bottom: 28px;
+
+  box-shadow:
+    0 10px 30px rgba(0,0,0,.06);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu-content {
+  padding: 34px 0;
+}
+
+.menu-content h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.menu-content p {
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 46px;
+  color: #d76b08;
+}
+
+.menu-footer {
+  background: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.script {
+  font-family: "Caveat", cursive;
+  font-size: 34px;
+  color: #c86d14;
+  margin-bottom: 12px;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .hero-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-cup {
+    display: none;
+  }
+
+  .menu-hero h2 {
+    font-size: 52px;
+  }
+
+  .hero-sub {
+    font-size: 22px;
+  }
+
+  .menu-section h3 {
+    font-size: 46px;
+  }
+
+  .menu-card {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-card img {
+    height: 220px;
+  }
+
+  .menu-content {
+    padding: 24px;
+  }
+
+  .menu-content h4 {
+    font-size: 34px;
+  }
+
+  .menu-content p {
+    font-size: 20px;
+  }
+
+  .arrow {
+    display: none;
+  }
+}
