@@ -130,12 +130,12 @@ body {
 
 .btn-primary {
   background: #FFAB00;
-  color: yellow;
+  color: orange;
 }
 
 .btn-secondary {
   border: 1px solid white;
-  color: white;
+  color: orange;
 }
 
 /* features */
