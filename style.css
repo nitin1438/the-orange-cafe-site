@@ -588,3 +588,6 @@ git push
     display: none;
   }
 }
+git add .
+git commit -m "Make menu visually rich"
+git push
