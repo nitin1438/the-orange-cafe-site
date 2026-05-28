@@ -784,11 +784,11 @@ git push
   font-size: 92px;
   line-height: .95;
   margin-top: 18px;
-  color: #2d2218;
+  color: #a86b45;
 }
 
 .events-hero h2 span {
-  color: #e6780c;
+  color: #d99a5c;
 }
 
 .hero-copy {
@@ -837,26 +837,23 @@ git push
 .event-box h3 {
   font-family: "Cormorant Garamond", serif;
   font-size: 48px;
+  color: #a96f48;
   margin-bottom: 12px;
 }
 
 .event-box p {
   font-size: 24px;
   line-height: 1.7;
+  color: #8b7768;
   margin-bottom: 18px;
 }
 
 .event-chip {
   display: inline-block;
-
-  background: #fff3df;
-
-  color: #d8740d;
-
+  background: #fff6ec;
+  color: #c48b61;
   padding: 12px 18px;
-
   border-radius: 999px;
-
   font-size: 18px;
   font-weight: 600;
 }
@@ -884,6 +881,7 @@ git push
 
   .hero-copy {
     font-size: 22px;
+    color: #8a7564;
   }
 
   .event-box {
